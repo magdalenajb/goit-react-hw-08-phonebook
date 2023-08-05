@@ -1,0 +1,38 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.username {
+  font-weight: 700;
+}
+
+.logInUser {
+  color: rgb(158, 32, 9);
+  font-style: italic;
+  font-weight: bolder;
+}
+.btnLogin {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  background-color: #1b589d;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  flex-grow: 1;
+  font-size: 15px;
+  height: 36px;
+  line-height: 20px;
+  margin-left: 8px;
+  margin-right: 6px;
+  min-width: 20px;
+  padding: 0 15px 0 15px;
+  color: white;
+  cursor: pointer;
+}
+
+.btnLogin:hover {
+  background-color: rgb(241, 112, 112);
+}
